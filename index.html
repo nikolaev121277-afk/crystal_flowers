@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Идите на хуй</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    padding: 20px;
+  }
+  .photo-container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  .photo-container img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .caption {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: 800;
+    color: #f8fafc;
+    margin-top: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="photo-container">
+    <img src="photo.jpg" alt="Идите на хуй">
+    <div class="caption">Идите на хуй</div>
+  </div>
+</body>
+</html>
